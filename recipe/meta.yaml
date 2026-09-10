@@ -1,13 +1,13 @@
 {% set name = "pixell" %}
-{% set version = "0.32.4" %}
+{% set version = "0.32.5" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pixell-{{ version }}.tar.gz
-  sha256: a1260f4363a949ecce1f0b5f0f3cb796ea00a3fe82228080b2ba205a77e8f213
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pixell-{{ version }}.tar.gz
+  sha256: 765d6ad7f079ab0f2d35d2dce00268af61c5d6022cc694043b41ac7464d95828
 
 
 build:
